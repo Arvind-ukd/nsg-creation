@@ -1,6 +1,6 @@
 
 resource "azurerm_network_security_group" "example" {
-  name                = "example-nsg"
+  name                = "arvind-costco-nsg"
   location            =  "South India"
   resource_group_name = data.azurerm_subnet.example.resource_group_name
 
